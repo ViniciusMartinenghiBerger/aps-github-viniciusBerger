@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Perfil</title>
-  
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -12,60 +12,63 @@
     <h1>Meu Perfil</h1>
   </header>
 
-    <div>
-      <img  
-        width="160" height="160"
+  <main>
+
+    <section class="perfil">
+      <img
         src="./logo git.webp"
-        alt="Foto logo git hub"
+        alt="Foto de perfil"
+        class="foto-perfil"
       >
-    </div>
+      <div class="info-basica">
+        <h2>Vinicius Berger</h2>
+        <p class="curso">Curso: Sistemas de Informação</p>
+      </div>
+    </section>
 
-    <div>
-    <h2>Vinicius Berger</h2>
-    <p>Curso: Sistemas de Informação</p>
-    </div>
-   
+    <section class="apresentacao">
+      <h3>Sobre mim</h3>
+      <p>
+        Estudante de tecnologia apaixonado por desenvolvimento web e por
+        entender como as coisas funcionam por trás das telas. Gosto de
+        aprender na prática, resolvendo problemas reais e construindo
+        projetos que unam código e criatividade.
+      </p>
+    </section>
 
-    
-    <h3>Sobre mim</h3>
-    <p>
-    Estudante de tecnologia apaixonado por desenvolvimento web e por
-    entender como as coisas funcionam por trás das telas. Gosto de
-    aprender na prática, resolvendo problemas reais e construindo
-    projetos que unam código e criatividade.
-    </p>
-  
-
-
-    <h3>Habilidades e Tecnologias</h3>
-    <ul>
+    <section class="habilidades">
+      <h3>Habilidades e Tecnologias</h3>
+      <ul>
         <li>HTML5 e CSS3</li>
         <li>JavaScript</li>
         <li>Git e GitHub</li>
         <li>Lógica de Programação</li>
         <li>Banco de Dados (básico)</li>
-    </ul>
-  
+      </ul>
+    </section>
 
-  
-    <h3>Objetivos Profissionais</h3>
-    <p>
-    Busco crescer como desenvolvedor(a) full stack, ganhar experiência
-    em projetos colaborativos e, futuramente, atuar em equipes de
-    tecnologia com foco em soluções web modernas e acessíveis.
-    </p>
+    <section class="objetivos">
+      <h3>Objetivos Profissionais</h3>
+      <p>
+        Busco crescer como desenvolvedor(a) full stack, ganhar experiência
+        em projetos colaborativos e, futuramente, atuar em equipes de
+        tecnologia com foco em soluções web modernas e acessíveis.
+      </p>
+    </section>
 
-
-
-    <h3>Links</h3>
-    <ul>
+    <section class="links">
+      <h3>Links</h3>
+      <ul class="lista-links">
         <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
         <li><a href="https://github.com/">GitHub</a></li>
-    </ul>
+      </ul>
+    </section>
 
+  </main>
 
   <footer>
     <p>Desenvolvido por Vinicius Berger &mdash; APS de GitHub e Versionamento &copy; 2026</p>
   </footer>
+
 </body>
 </html>
